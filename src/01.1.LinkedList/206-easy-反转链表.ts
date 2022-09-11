@@ -1,3 +1,4 @@
+// 迭代
 function reverseList(head: ListNode | null): ListNode | null {
   let pre = null
   let curr = head
@@ -9,4 +10,15 @@ function reverseList(head: ListNode | null): ListNode | null {
     curr = next
   }
   return pre
+};
+
+// 递归
+function reverseList2(head: ListNode | null): ListNode | null {
+  if (head === null || head.next === null) {
+    return head
+  }
+  const new_head = reverseList2(head.next)
+  head.next.next = head
+  head.next = null
+  return new_head
 };
