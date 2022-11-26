@@ -1,17 +1,8 @@
+import { ListNode } from "../main";
+
 // 1. 遍历链表
 // 2. 思路：双指针
 // 3. 两个指针，步数差 n 步，快指针到头，慢指针就到了倒数第 n 个位置
-
-
-
- class ListNode {
-  val: number
-  next: ListNode | null
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = (val===undefined ? 0 : val)
-    this.next = (next===undefined ? null : next)
-  }
-}
 
 // 错误答案
 // let left = head

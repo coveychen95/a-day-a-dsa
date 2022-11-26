@@ -16,7 +16,10 @@
   "devDependencies": {
     "@babel/core": "^7.17.7",
     "@babel/preset-env": "^7.16.11",
+    "@types/core-js": "^2.5.5",
+    "@types/webpack-env": "^1.18.0",
     "babel-loader": "^8.2.3",
+    "core-js": "^3.26.1",
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.2.8",
     "ts-node": "^10.8.1",

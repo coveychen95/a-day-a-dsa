@@ -9,7 +9,10 @@
   },
   "lib": ["ES6"],
   "exclude": ["node_modules"],
+  "type": ["webpack-env"],
   "include": [
-    "./src/**/*"
-  ]
+    "src/**/*.ts",
+    "types/**/*.d.ts",
+    "types/**/*.ts",
+  ],
 }

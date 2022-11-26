@@ -1,3 +1,5 @@
+import { ListNode } from "../main"
+
 // 迭代
 function reverseList(head: ListNode | null): ListNode | null {
   let pre: ListNode | null = null

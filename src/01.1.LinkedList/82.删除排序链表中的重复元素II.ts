@@ -1,3 +1,4 @@
+import { ListNode } from "../main";
 
 function deleteDuplicates(head: ListNode | null): ListNode | null {
   if (!head) return head
