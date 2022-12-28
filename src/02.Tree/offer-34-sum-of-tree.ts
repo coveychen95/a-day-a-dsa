@@ -12,7 +12,7 @@ function pathSum(root: TreeNode | null, target: number): number[][] {
     }
     path.push(root.val)
     const tar = target - root.val
-    if (!root.left && !root.right && target === 0) res.push(path)
+    if (root.left === null && root.right === null && tar === 0) res.push(path.slice())
     dfs(root.left, tar)
     dfs(root.right, tar)
     path.pop()
