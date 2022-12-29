@@ -8,7 +8,7 @@ function maxDepth(root: TreeNode | null): number {
 
 // BFS
 function maxDepth2(root: TreeNode | null): number {
-  if(root === null) return 0
+  if (root === null) return 0
   let queue: TreeNode[]  = []
   let deep = 0
   queue.push(root)
