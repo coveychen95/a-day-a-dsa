@@ -16,11 +16,8 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
       remenber = nums2[right++]
     }
     res[left + right - 1] = remenber
-    console.log('left, right, res: ', left, right, res);
   }
   for (let i = 0; i < m + n; i++) {
     nums1[i] = res[i]
   }
 };
-
-merge([1,2,3,0,0,0], 3, [2,5,6], 3)
