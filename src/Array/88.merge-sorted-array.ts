@@ -18,7 +18,7 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     res[left + right - 1] = remenber
     console.log('left, right, res: ', left, right, res);
   }
-  for (let i = 0; i < m + n - 1; i++) {
+  for (let i = 0; i < m + n; i++) {
     nums1[i] = res[i]
   }
 };
