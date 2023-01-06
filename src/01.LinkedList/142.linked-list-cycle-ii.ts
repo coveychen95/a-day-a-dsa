@@ -1,4 +1,3 @@
-import { fstat } from "fs"
 import { ListNode } from "../main"
 
 function detectCycle(head: ListNode | null): ListNode | null {
